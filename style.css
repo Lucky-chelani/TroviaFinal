@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: 'Segoe UI', sans-serif;
+    height: 100%;
+    width: 100%;
+    color: #000;
+    overflow-x: hidden;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .logo .icon {
+    font-size: 1.2rem;
+    color: #000;
+  }
+  
+  .nav-links a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+  
+  .nav-buttons button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #000;
+    background-color: white;
+  }
+  
+  .get-started {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  .hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 5rem 3rem;
+    overflow: hidden;
+    background: linear-gradient(to top, #fdfdfd, #eaeff2);
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 5;
+    max-width: 600px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.2;
+  }
+  
+  .hero-content p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .cta-buttons {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: black;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .btn-secondary {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .background-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .overlay-circle {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 300px;
+    height: 300px;
+    background-color: #fddbcc;
+    border-radius: 50%;
+    z-index: 2;
+    opacity: 0.8;
+  }
+  
+  .birds {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 120px;
+    z-index: 3;
+    opacity: 0.8;
+  }
+  
